@@ -3,6 +3,9 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Menu, X, Phone, Mail, MapPin, ChevronRight, HeartHandshake, Users, Stethoscope, BedDouble, Brain, CalendarHeart, MessageCircle } from "lucide-react";
+import AIChatAssistant from './components/AIChatAssistant';
+import FloatingContactButtons from './components/FloatingContactButtons';
+import LuxuryLoader from './components/LuxuryLoader';
 
 const site = {
   phone: "770-439-7666",
